@@ -27,4 +27,11 @@ function rollDice() {
     }
 }
 
+let name1 = document.querySelector("body > div > div:nth-child(2) > p").textContent = prompt("Enter the first player's name: (Max 10 characters)").slice(0, 10)
+let name2 = document.querySelector("body > div > div:nth-child(3) > p").textContent = prompt("Enter the second player's name: (Max 10 characters)").slice(0, 10)
+
+
+
+
+
 document.querySelector("h1").onclick = rollDice;
